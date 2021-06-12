@@ -1,0 +1,235 @@
+FACILITYTYPEID,,,,,
+RESFACILITYTYPE,RESFACILITYTYPEID,,,,
+Single Family,1,,,,
+Multifamily,2,,,,
+Apartment,3,,,,
+Mobile Home,4,,,,
+Studio,5,,,,
+Unknown,0,,,,
+NULL,999,,,,
+,,,,,
+CENSUSDIVISIONID,,,,,
+CENSUSDIVISION,CENSUSDIVISIONID,,,,
+New England,1,,,,
+Middle Atlantic,2,,,,
+East North Central,3,,,,
+West North Central,4,,,,
+South Atlantic,5,,,,
+East South Central,6,,,,
+West South Central,7,,,,
+Mountain,8,,,,
+Pacific,9,,,,
+Unknown,0,,,,
+NULL,999,,,,
+,,,,,
+WALLTYPEID,,,,,
+EXTERIORWALLTYPE,WALLTYPEID,,,,
+Wood Walls,31,,,,
+Unknown,1,,,,
+"Brick, stone, or stucco - general",2,,,,
+Brick,3,,,,
+Stone,4,,,,
+Concrete Panels,5,,,,
+Concrete block or poured - general,6,,,,
+Concrete Block,7,,,,
+Concrete non-load bearing,8,,,,
+Concrete load bearing,9,,,,
+Metal Sandwich,10,,,,
+Aerated concrete,11,,,,
+Insulated concrete forms,12,,,,
+Sheet Metal,13,,,,
+Siding,14,,,,
+Window - general,15,,,,
+Solar glass,16,,,,
+Decorative or Conctruction Glass,17,,,,
+No one major type,18,,,,
+Masonry and Metal,19,,,,
+Masonry and Frame,20,,,,
+Glass and Masonry,21,,,,
+Brick and Concrete Block,22,,,,
+Wood Frame and Masonry,23,,,,
+Frame - general,24,,,,
+Wood Frame,25,,,,
+Steel Frame,26,,,,
+Aluminum Frame,27,,,,
+SIPS,28,,,,
+Enclosure,29,,,,
+Other,30,,,,
+NULL,999,,,,
+,,,,,
+WINDOWGLASSTYPE,,,,,
+WINDOWGLASSTYPE_DESC,WINDOWGLASSTYPE_ID,,,,
+Low-e,1,,,,
+Tinted,2,,,,
+Reflective,3,,,,
+Tinted/Reflective,4,,,,
+NULL,5,,,,
+Other,6,,,,
+,,,,,
+CLIMATEZONEID,,,,,
+CLIMATEZONE,CLIMATEZONEID,,,,
+"<2000 CDD,>7000 HDD",1,,,,
+"<2000 CDD,5500-7000 HDD",2,,,,
+"<2000 CDD,4000-5499 HDD",3,,,,
+"<2000 CDD,<4000 HDD",4,,,,
+">,2000 CDD,<4000 HDD",5,,,,
+Withheld to protect confidentiality,7,,,,
+Unknown,0,,,,
+NULL,999,,,,
+,,,,,
+"ASSET_HEATING_FUEL_ID, ASSET_COOLING_FUEL_ID",,,,,
+FUEL,FUELID,,,,
+NULL,999,,,,
+Natural Gas,1,,,,
+Electricity,2,,,,
+Fossil Fuel - Unspecified,34,,,,
+Fuel Oil,3,,,,
+District Steam,4,,,,
+Fuel oil and diesel,26,,,,
+Fuel oil and kerosene,27,,,,
+Diesel and kerosene,28,,,,
+"Fuel oil, diesel, and kerosene",29,,,,
+Fuel Oil No.1,5,,,,
+Fuel Oil No.2,6,,,,
+Fuel Oil No.4,7,,,,
+Fuel Oil No.5 and No.6,8,,,,
+Unknown,0,,,,
+District hot water,9,,,,
+District chilled water (electric chillers),10,,,,
+District chilled water (absorption chillers using nat gas),11,,,,
+District chilled water (engine-driven using nat gas),12,,,,
+District chilled water,13,,,,
+Solar hot water,14,,,,
+Bottled gas (LPG or propane),15,,,,
+Propane,16,,,,
+Liquid Propane,17,,,,
+Kerosene,18,,,,
+Diesel,19,,,,
+Coal,20,,,,
+Coal (anthracite),21,,,,
+Coal (bituminous),22,,,,
+Coke,23,,,,
+Wood,24,,,,
+Other,25,,,,
+Electricity (Renewable),30,,,,
+Natural Gas (Renwable),31,,,,
+Water,33,,,,
+,,,,,
+"HEATING_SYS, COOLING_SYS",,,,,
+ASSETSUBTYPE,ASSETSUBTYPEID,ASSETTYPEID,RETROFIT_IND,RETROFIT_CHARACTERISTICS,RETROFIT_MEASURE
+Indoor pool,46,3,,,
+Walk-in,33,7,Y,"High Efficiency Unit
+","Efficiency
+"
+Open Case,34,7,Y,"High Efficiency Unit
+","Efficiency
+"
+Closed Case,35,7,Y,"High Efficiency Unit
+","Efficiency
+"
+Condensing Unit,72,2,,,
+Cooling Tower,73,2,,,
+Commercial Unit,38,7,,,
+Residential Unit,39,7,,,
+Residential Cooking,57,13,,,
+Dishwasher,58,14,,,
+Boiler - Hot Water,74,1,,,
+Boiler - Steam,75,1,,,
+Conventional,76,17,,,
+Dryer,64,16,,,
+Unspecified,77,17,,,
+Instantaneous,78,17,,,
+Heatpump,79,17,,,
+Outdoor,80,17,,,
+Pool - Uncategorized,81,3,,,
+Olympic,82,3,,,
+Recreational,83,3,,,
+Short Course,84,3,,,
+NULL,999,999,,,
+Individual room air conditioners,47,2,,,
+Split system heat pump for cooling,48,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Individual room heat pump for cooling,49,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Air source heat pump for cooling,50,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Ground source heat pump for cooling,51,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Water loop heat pump for cooling,52,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Residential - FULL-SIZE WITH ONE DOOR,66,7,,,
+Generation,65,11,,,
+Residential - FULL-SIZE WITH TWO DOORS,67,7,,,
+Residential - HALF OR QUARTER SIZE,68,7,,,
+Residential - SOME OTHER KIND,69,7,,,
+Residential Freezer - Manual Defrost,37,7,,,
+Residential Freezer - Frost Free,36,7,,,
+Furnace,1,1,Y,"High Efficiency Unit
+","Efficiency
+"
+Boiler - General,2,1,Y,"High Efficiency Unit
+","Efficiency
+"
+Packaged unit,3,1,Y,"High Efficiency Unit
+","Efficiency
+"
+Individual space heater,4,1,,,
+Heat pump - General,5,1,Y,"High Efficiency Unit
+","Efficiency
+"
+Heat Pump - Geothermal,6,1,Y,High Efficiency Unit,"Efficiency
+"
+District steam,7,1,Y,,"Nominal
+"
+Hydronic,8,1,,,
+Portable Electric Heater,9,1,,,
+Portable Kerosene Heater,10,1,,,
+Fireplace,11,1,,,
+Cookstove,12,1,,,
+"Heating Stove burning wood, coal, coke",13,1,,,
+"Built-in heater burning Gas,oil, kerosene",14,1,,,
+Built-in Electric unit,15,1,,,
+Pipeless Furnace,16,1,,,
+Other,17,1,,,
+Packaged Unit,18,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Residential Central Air Conditioning,19,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Room Air Conditioner,20,2,,,
+Heat Pump,21,2,Y,"High Efficiency Unit
+","Efficiency
+"
+District Chilled Water,22,2,,,
+Chiller,23,2,Y,"High Efficiency Unit
+","Efficiency
+"
+Evaporative cooler,24,2,,,
+Unknown,0,0,,,
+Water Heater,26,17,,,
+VAV System,32,9,Y,,
+Incandescent bulbs,40,6,Y,Upgrade From 41,
+Fluorescent bulbs,41,6,Y,Upgrade From 42,
+Compact fluorescent bulbs,42,6,Y,Upgrade From 43,
+High intensity discharge (HID) bulbs,43,6,Y,Upgrade From 44,
+Halogen bulbs,44,6,Y,,
+Other type of bulbs,45,6,,,
+EMCS,54,10,,,
+Top Loading,62,15,,,
+Front Loading,63,15,,,
+Hottub,70,18,,,
+Warehouse Lighting,71,6,,,
+,,,,,
+"HEATINGSYST_EFF, COOLINGSYST_EFF",,,,,
+EFFICIENCYUNIT,Applies To,,,,
+SEER,"Heat Pump Cooling, Central A/C",,,,
+HSPF,Heat Pump Heating,,,,
+%,Furnace,,,,
+,,,,,
+,,,,,
